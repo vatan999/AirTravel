@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>airTravel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- container  -->
+    <div class="container">
+      <!-- top bar  -->
+
+      <div class="top-bar">
+        <h3 class="intro">Introducing the new airTravel</h3>
+        <p>Learn More</p>
+      </div>
+
+      <!-- End top bar -->
+
+      <!-- navbar  -->
+      <div class="navbar">
+        <div class="logo">
+          <h1>airTravel</h1>
+        </div>
+        <div class="search">
+          <form>
+            <div class="input-container">
+              <input type="text" placeholder="Search Your Property" />
+            </div>
+            <div>
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </form>
+        </div>
+        <div class="menu">
+          <ul class="nav-menu">
+            <li><a href="" class="nav-links">Listing</a></li>
+            <li><a href="" class="nav-links">Featured</a></li>
+            <li><a href="" class="nav-links">Popular</a></li>
+          </ul>
+          <div onclick="mobileMenu() " class="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Navbar  -->
+
+      <!-- Sort Bar  -->
+
+      <div class="sort-bar">
+        <div>
+          <i class="fa-solid fa-house-chimney"></i>
+          <p>House</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-star-of-life"></i>
+          <p>Artic</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-rocket"></i>
+          <p>Space</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-tree"></i>
+          <p>Trees</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-building"></i>
+          <p>City</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-campground"></i>
+          <p>Camping</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-umbrella-beach"></i>
+          <p>Beach</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-volleyball"></i>
+          <p>Games</p>
+        </div>
+      </div>
+
+      <!-- End Sort Bar -->
+
+      <!-- listing  -->
+
+      <div class="listing">
+        <!-- Property Card  -->
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuc2lvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFuc2lvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFuc2lvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWFuc2lvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbnNpb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1hbnNpb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1593714604578-d9e41b00c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG1hbnNpb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1548713740-2a50e43f0830?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fG1hbnNpb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fG1hbnNpb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1578439297699-eb414262c2de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fG1hbnNpb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fG1hbnNpb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE1fHxtYW5zaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            alt=""
+          />
+          <div class="card-title">
+            <h4>City, State</h4>
+            <p>5.0 <i class="fa-solid fa-star"></i></p>
+          </div>
+          <p><span class="grey">Hosted by Reality Group, LLC</span></p>
+          <p><span class="grey">June 1 - 7</span></p>
+          <p>$749 Night</p>
+        </div>
+      </div>
+
+      <!-- Featured-Section -->
+
+      <div class="featured">
+        <div class="title">
+          <h1>Featured</h1>
+        </div>
+        <div class="featured-wrapper">
+          <div class="main">
+            <img
+              src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE1fHxtYW5zaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1496328488450-9c5c5d555148?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFuc2lvbiUyMHBvb2x8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1526498840002-87400e890f76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFuc2lvbiUyMHBvb2x8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fG1hbnNpb24lMjBwb29sfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1654738763056-ad1ebdebdc47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fG1hbnNpb24lMjBwb29sfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- end  -->
+      <!-- listing end  -->
+    </div>
+
+    <script>
+      const menuBtn = document.querySelector(".mobile-menu");
+      const navMenu = document.querySelector(".nav-menu");
+
+      const mobileMenu = () => {
+        menuBtn.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
